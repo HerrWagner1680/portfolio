@@ -1,5 +1,13 @@
 body {
 	margin: 30px;
+	max-width: 1050px;
+	font-family: sans-serif;
+	background: #ddd;
+}
+
+body a {
+/*	text-decoration: black;*/
+	color: black;
 }
 
 .top_links {
@@ -11,8 +19,20 @@ body {
 	margin-top: 60px;
 }
 
+#chart_span {
+	display: block;
+	max-width: 900px;
+	margin-bottom: 20px;
+}
+
+#nycda {
+	margin-top: 25px;
+	font-size: 25px;
+}
+
 #nycda_blog {
 	display: block;
+	max-width: 900px;
 	margin-top: 60px;
 }
 
@@ -21,9 +41,24 @@ body {
 	margin-top: 60px;
 }
 
+#shop_title {
+	margin-top: 25px;
+	font-size: 25px;
+}
+
+#clone_title {
+	margin-top: 50px;
+	font-size: 25px;	
+}
+
 #clone {
 	display: block;
 	margin-top: 60px;
+}
+
+.chart {
+	margin-top: 25px;
+	font-size: 25px;
 }
 
 .chart1 img {
@@ -38,6 +73,13 @@ body {
 	max-width: 405px;
 	height: auto;
 	border: 10px solid #444;
+}
+
+#blog_span {
+	display: block;
+	max-width: 800px;
+	margin-top: 100px;
+	margin-bottom: 20px;
 }
 
 .blog_login img {
@@ -61,6 +103,13 @@ body {
 	border: 10px solid #444;
 }
 
+#shop_span {
+	display: block;
+	max-width: 800px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
 .shop img {
 	display: inline;
 	max-width: 400px;
@@ -73,6 +122,7 @@ body {
 	max-width: 430px;
 	height: auto;
 	border: 10px solid #444;
+	margin-top: 0px;
 }
 
 .goog_code img {
