@@ -1,0 +1,83 @@
+body {
+	margin: 30px;
+}
+
+.top_links {
+	display: inline-block;
+}
+
+#chart_div {
+	display: block;
+	margin-top: 60px;
+}
+
+#nycda_blog {
+	display: block;
+	margin-top: 60px;
+}
+
+#shopping {
+	display: block;
+	margin-top: 60px;
+}
+
+#clone {
+	display: block;
+	margin-top: 60px;
+}
+
+.chart1 img {
+	display: inline;
+	max-width: 400px;
+	height: auto;
+	border: 10px solid #444;
+}
+
+.chart2 img {
+	display: inline;
+	max-width: 405px;
+	height: auto;
+	border: 10px solid #444;
+}
+
+.blog_login img {
+	display: inline;
+	max-width: 400px;
+	height: auto;
+	border: 10px solid #444;
+}
+
+.blog_credit img {
+	display: inline;
+	max-width: 415px;
+	height: auto;
+	border: 10px solid #444;
+}
+
+.blog_commands img {
+	display: inline;
+	max-width: 400px;
+	height: auto;
+	border: 10px solid #444;
+}
+
+.shop img {
+	display: inline;
+	max-width: 400px;
+	height: auto;
+	border: 10px solid #444;
+}
+
+.goog_clone img {
+	display: inline;
+	max-width: 430px;
+	height: auto;
+	border: 10px solid #444;
+}
+
+.goog_code img {
+	display: inline;
+	max-width: 400px;
+	height: auto;
+	border: 10px solid #444;
+}
