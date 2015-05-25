@@ -1,12 +1,4 @@
-body {
-	margin: 30px;
-	max-width: 1050px;
-	font-family: sans-serif;
-	background: #ddd;
-}
-
-body a {
-/*	text-decoration: black;*/
+body a{
 	color: black;
 }
 
@@ -16,7 +8,7 @@ body a {
 
 #chart_div {
 	display: block;
-	margin-top: 60px;
+	margin-top: 20px;
 }
 
 #chart_span {
@@ -36,13 +28,33 @@ body a {
 	margin-top: 60px;
 }
 
+#typeface_title {
+	font-size: 25px;
+}
+
+div #typeface {
+	display: inline-block;
+	max-width: 500px;
+	margin-right: 25px;
+	margin-top: 50px;
+}
+
+.typeface_pic img {
+	display: inline;
+/*	margin-left: 25px;*/
+	max-width: 272px;
+	height: auto;
+	border: 10px solid #444;
+}
+
 #shopping {
-	display: block;
-	margin-top: 60px;
+	display: inline-block;
+	max-width: 340px;
+/*	margin-top: 90px;*/
 }
 
 #shop_title {
-	margin-top: 25px;
+/*	margin-top: 25px;*/
 	font-size: 25px;
 }
 
@@ -70,9 +82,15 @@ body a {
 
 .chart2 img {
 	display: inline;
-	max-width: 405px;
+	max-width: 406px;
 	height: auto;
 	border: 10px solid #444;
+}
+
+.chart1 img:hover, .chart2 img:hover,
+.blog_login img:hover, .blog_credit img:hover, .blog_commands img:hover,
+.typeface_pic img:hover, .shop img:hover, .goog_clone img:hover, .goog_code img:hover {
+	opacity: 0.8;
 }
 
 #blog_span {
@@ -104,14 +122,15 @@ body a {
 }
 
 #shop_span {
-	display: block;
-	max-width: 800px;
+	display: inline;
 	margin-top: 100px;
 	margin-bottom: 20px;
+	margin-right: 25px;
 }
 
 .shop img {
 	display: inline;
+	margin-top: 90px;
 	max-width: 400px;
 	height: auto;
 	border: 10px solid #444;

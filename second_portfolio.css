@@ -1,7 +1,8 @@
 body{
 	font-family: Lucida Grande;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
+	right: 0;
 	background: #ddd;
 /*	background: #e8d9c4;*/
 }
@@ -17,8 +18,9 @@ h5>a{
 
 section{
 	top: 0;
+/*	width: 100%;*/
 	margin-top: 0px;
-	margin-left: 220px;
+/*	margin-left: 230px;*/
 	padding: 30px 20px 30px 40px;
 
     background: -webkit-linear-gradient(left, #f3e3e1, #e7ded9); /* For Safari 5.1 to 6.0 */
@@ -28,6 +30,11 @@ section{
 
 /*	background: #e8d9c4;*/
 	height: 100%;
+}
+
+#content{
+	margin-left: 235px;
+	margin-right: 25px;
 }
 
 #menu{
