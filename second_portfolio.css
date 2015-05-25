@@ -1,0 +1,116 @@
+body{
+	font-family: Lucida Grande;
+	margin: 0px;
+	padding: 0px;
+	background: #ddd;
+/*	background: #e8d9c4;*/
+}
+
+h2, h3, h4, h5, h5>a{
+	text-align: center;
+	text-decoration: none;
+}
+
+h5>a{
+	margin-left: 5px;
+}
+
+section{
+	top: 0;
+	margin-top: 0px;
+	margin-left: 220px;
+	padding: 30px 20px 30px 40px;
+
+    background: -webkit-linear-gradient(left, #f3e3e1, #e7ded9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f3e3e1, #e7ded9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f3e3e1, #e7ded9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f3e3e1, #e7ded9); /* Standard syntax */
+
+/*	background: #e8d9c4;*/
+	height: 100%;
+}
+
+#menu{
+	width: 240px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	display: block;
+	z-index: 10;
+	overflow: auto;
+/*	padding-left: 10px;*/
+
+    background: -webkit-linear-gradient(#FDF5EF, #f6ede6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FDF5EF, #f6ede6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FDF5EF, #f6ede6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FDF5EF, #f6ede6);
+/* daccca */
+	-mox-box-shadow: 0px 0px 20px 10px #e1d6d4;
+	-webkit-blox-shadow: 0px 0px 20px 10px #e1d6d4;
+	box-shadow: 0px 0px 20px 10px #e1d6d4;
+	outline: #c0b29e 2px solid;
+}
+
+.linky{
+	transition: color 1.2s ease;
+	color: #aaa;
+	display: block;
+	padding-top: 15px;
+}
+
+.linky:hover{
+	color: #663300;;
+}
+
+.space{
+	display:block;
+	width: 100%;
+	height: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a>h4{
+	color: #574319;
+	text-decoration: none;
+}
+
+h4{
+	text-decoration: none;
+	padding: 10px;
+	margin: 0px;
+}
+
+a>h4:hover{
+	color: #3f2a14;
+	text-decoration: none;
+	background: #fff;
+	transition: color 0.6s ease;
+	transition: background 0.6s ease;
+	padding: 10px;
+	margin: 0px;
+}
+
+.icon_link{
+	transition: opacity 1.2s ease;
+	opacity: 0.3;
+} 
+
+.icon_link:hover{
+	opacity: 0.9;
+} 
+
+#soc_med{
+	text-align: center;
+	margin-left: 5px;
+}
+
+/* REM add media queries for 800px width */
+
+
+
+
+
+
