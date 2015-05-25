@@ -2,6 +2,13 @@ body a{
 	color: black;
 }
 
+img#sw {
+	display: block;
+	max-height: 130px;
+	border-radius: 65px;
+	margin: auto;
+}
+
 .top_links {
 	display: inline-block;
 }
@@ -123,14 +130,14 @@ div #typeface {
 
 #shop_span {
 	display: inline;
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-bottom: 20px;
 	margin-right: 25px;
 }
 
 .shop img {
 	display: inline;
-	margin-top: 90px;
+	margin-top: 80px;
 	max-width: 400px;
 	height: auto;
 	border: 10px solid #444;
