@@ -143,17 +143,23 @@ div #typeface {
 	border: 10px solid #444;
 }
 
-.goog_clone img {
+#sketchy {
+	margin-top: 90px;
+}
+
+#sketchy_title {
+	font-size: 25px;
+}
+
+.sketchy_svg img {
 	display: inline;
 	max-width: 430px;
 	height: auto;
 	border: 10px solid #444;
-	margin-top: 0px;
+	margin-top: 0px;	
 }
 
-.goog_code img {
-	display: inline;
-	max-width: 400px;
-	height: auto;
-	border: 10px solid #444;
-}
+
+.sketchy_svg img:hover {
+	opacity: 0.8;
+}	
