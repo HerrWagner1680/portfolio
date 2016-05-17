@@ -1,16 +1,13 @@
-body a{
-	color: black;
+body {
+	margin: 30px;
+	max-width: 1050px;
+	font-family: sans-serif;
+	background: #ddd;
 }
 
-img#sw {
-	display: block;
-	max-height: 130px;
-	border-radius: 65px;
-	margin: auto;
-    -webkit-filter: grayscale(40%);
-    -moz-filter:    grayscale(40%);
-    -ms-filter:     grayscale(40%);
-    -o-filter:      grayscale(40%);
+body a {
+/*	text-decoration: black;*/
+	color: black;
 }
 
 .top_links {
@@ -19,7 +16,7 @@ img#sw {
 
 #chart_div {
 	display: block;
-	margin-top: 20px;
+	margin-top: 60px;
 }
 
 #chart_span {
@@ -39,33 +36,13 @@ img#sw {
 	margin-top: 60px;
 }
 
-#typeface_title {
-	font-size: 25px;
-}
-
-div #typeface {
-	display: inline-block;
-	max-width: 500px;
-	margin-right: 25px;
-	margin-top: 50px;
-}
-
-.typeface_pic img {
-	display: inline;
-/*	margin-left: 25px;*/
-	max-width: 272px;
-	height: auto;
-	border: 10px solid #444;
-}
-
 #shopping {
-	display: inline-block;
-	max-width: 340px;
-/*	margin-top: 90px;*/
+	display: block;
+	margin-top: 60px;
 }
 
 #shop_title {
-/*	margin-top: 25px;*/
+	margin-top: 25px;
 	font-size: 25px;
 }
 
@@ -93,15 +70,9 @@ div #typeface {
 
 .chart2 img {
 	display: inline;
-	max-width: 406px;
+	max-width: 405px;
 	height: auto;
 	border: 10px solid #444;
-}
-
-.chart1 img:hover, .chart2 img:hover,
-.blog_login img:hover, .blog_credit img:hover, .blog_commands img:hover,
-.typeface_pic img:hover, .shop img:hover, .goog_clone img:hover, .goog_code img:hover {
-	opacity: 0.8;
 }
 
 #blog_span {
@@ -133,37 +104,30 @@ div #typeface {
 }
 
 #shop_span {
-	display: inline;
-	margin-top: 80px;
+	display: block;
+	max-width: 800px;
+	margin-top: 100px;
 	margin-bottom: 20px;
-	margin-right: 25px;
 }
 
 .shop img {
 	display: inline;
-	margin-top: 80px;
 	max-width: 400px;
 	height: auto;
 	border: 10px solid #444;
 }
 
-#sketchy {
-	margin-top: 90px;
-}
-
-#sketchy_title {
-	font-size: 25px;
-}
-
-.sketchy_svg img {
+.goog_clone img {
 	display: inline;
 	max-width: 430px;
 	height: auto;
 	border: 10px solid #444;
-	margin-top: 0px;	
+	margin-top: 0px;
 }
 
-
-.sketchy_svg img:hover {
-	opacity: 0.8;
-}	
+.goog_code img {
+	display: inline;
+	max-width: 400px;
+	height: auto;
+	border: 10px solid #444;
+}
