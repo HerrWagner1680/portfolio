@@ -1,16 +1,13 @@
-body a{
-	color: black;
+body {
+	margin: 30px;
+	/* max-width: 1050px; */
+	font-family: sans-serif;
+	background: #ddd;
 }
 
-img#sw {
-	display: block;
-	max-height: 130px;
-	border-radius: 65px;
-	margin: auto;
-    -webkit-filter: grayscale(40%);
-    -moz-filter:    grayscale(40%);
-    -ms-filter:     grayscale(40%);
-    -o-filter:      grayscale(40%);
+body a {
+/*	text-decoration: black;*/
+	color: black;
 }
 
 .top_links {
@@ -19,7 +16,7 @@ img#sw {
 
 #chart_div {
 	display: block;
-	margin-top: 20px;
+	margin-top: 60px;
 }
 
 #chart_span {
@@ -39,33 +36,13 @@ img#sw {
 	margin-top: 60px;
 }
 
-#typeface_title {
-	font-size: 25px;
-}
-
-div #typeface {
-	display: inline-block;
-	max-width: 500px;
-	margin-right: 25px;
-	margin-top: 50px;
-}
-
-.typeface_pic img {
-	display: inline;
-/*	margin-left: 25px;*/
-	max-width: 272px;
-	height: auto;
-	border: 10px solid #444;
-}
-
 #shopping {
-	display: inline-block;
-	max-width: 340px;
-/*	margin-top: 90px;*/
+	display: block;
+	margin-top: 60px;
 }
 
 #shop_title {
-/*	margin-top: 25px;*/
+	margin-top: 25px;
 	font-size: 25px;
 }
 
@@ -93,15 +70,9 @@ div #typeface {
 
 .chart2 img {
 	display: inline;
-	max-width: 406px;
+	max-width: 405px;
 	height: auto;
 	border: 10px solid #444;
-}
-
-.chart1 img:hover, .chart2 img:hover,
-.blog_login img:hover, .blog_credit img:hover, .blog_commands img:hover,
-.typeface_pic img:hover, .shop img:hover, .goog_clone img:hover, .goog_code img:hover {
-	opacity: 0.8;
 }
 
 #blog_span {
@@ -133,37 +104,203 @@ div #typeface {
 }
 
 #shop_span {
-	display: inline;
-	margin-top: 80px;
+	display: block;
+	max-width: 800px;
+	margin-top: 100px;
 	margin-bottom: 20px;
-	margin-right: 25px;
 }
 
 .shop img {
 	display: inline;
-	margin-top: 80px;
 	max-width: 400px;
 	height: auto;
 	border: 10px solid #444;
 }
 
-#sketchy {
-	margin-top: 90px;
+div #typeface {
+    display: inline-block;
+    max-width: 500px;
+    margin-right: 25px;
+    margin-top: 50px;
 }
 
-#sketchy_title {
-	font-size: 25px;
+.typeface_pic img {
+    display: inline;
+    max-width: 272px;
+    height: auto;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(68, 68, 68);
+}
+
+#sketchy {
+    margin-top: 90px;
 }
 
 .sketchy_svg img {
-	display: inline;
-	max-width: 430px;
-	height: auto;
-	border: 10px solid #444;
-	margin-top: 0px;	
+    display: inline;
+    max-width: 430px;
+    height: auto;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    margin-top: 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(68, 68, 68);
+}
+
+#chart_div {
+    display: block;
+    margin-top: 20px;
+}
+
+.chart1 img {
+    display: inline;
+    max-width: 400px;
+    height: auto;
+    border: 10px solid #444;
+}
+
+.chart2 img {
+    display: inline;
+    max-width: 406px;
+    height: auto;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(68, 68, 68);
+}
+
+.chart {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+#nycda_blog {
+    display: block;
+    max-width: 900px;
+    margin-top: 60px;
+}
+
+#blog_span {
+    display: block;
+    max-width: 800px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.blog_login img {
+    display: inline;
+    max-width: 400px;
+    height: auto;
+    border: 10px solid #444;
+}
+
+body a {
+    color: black;
+}
+
+.blog_commands img {
+    display: inline;
+    max-width: 400px;
+    height: auto;
+    border: 10px solid #444;
+}
+
+.blog_credit img {
+    display: inline;
+    max-width: 415px;
+    height: auto;
+    border: 10px solid #444;
+}
+
+#shop_span {
+    display: inline;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+.shop img {
+    display: inline;
+    margin-top: 80px;
+    max-width: 400px;
+    height: auto;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(68, 68, 68);
+}
+
+#shopping {
+    display: inline-block;
+    max-width: 340px;
+}
+
+body {
+    font-family: Lucida Grande;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    background: #ddd;
+    /* background: #e8d9c4; */
 }
 
 
-.sketchy_svg img:hover {
-	opacity: 0.8;
-}	
+
+#menu {
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: block;
+    z-index: 10;
+    overflow: auto;
+    /* padding-left: 10px; */
+    background: -webkit-linear-gradient(#FDF5EF, #f6ede6);
+    background: -o-linear-gradient(#FDF5EF, #f6ede6);
+    background: -moz-linear-gradient(#FDF5EF, #f6ede6);
+    background: linear-gradient(#FDF5EF, #f6ede6);
+    -mox-box-shadow: 0px 0px 20px 10px #e1d6d4;
+    -webkit-blox-shadow: 0px 0px 20px 10px #e1d6d4;
+    box-shadow: 0px 0px 20px 10px #e1d6d4;
+    outline: #c0b29e 2px solid;
+}
+
+section {
+    top: 0;
+    /* width: 100%; */
+    margin-top: 0px;
+    /* margin-left: 230px; */
+    padding: 30px 20px 30px 40px;
+    background: -webkit-linear-gradient(left, #f3e3e1, #e7ded9);
+    background: -o-linear-gradient(right, #f3e3e1, #e7ded9);
+    background: -moz-linear-gradient(right, #f3e3e1, #e7ded9);
+    background: linear-gradient(to right, #f3e3e1, #e7ded9);
+    /* background: #e8d9c4; */
+    height: 100%;
+}
+
+#typeface_title {
+    font-size: 25px;
+}
+
+#sketchy_title {
+    font-size: 25px;
+}
