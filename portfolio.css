@@ -1,10 +1,3 @@
-body {
-	margin: 30px;
-	/* max-width: 1050px; */
-	font-family: sans-serif;
-	background: #ddd;
-}
-
 body a {
 /*	text-decoration: black;*/
 	color: black;
@@ -208,10 +201,6 @@ div #typeface {
     border: 10px solid #444;
 }
 
-body a {
-    color: black;
-}
-
 .blog_commands img {
     display: inline;
     max-width: 400px;
@@ -253,17 +242,6 @@ body a {
     max-width: 340px;
 }
 
-body {
-    font-family: Lucida Grande;
-    margin: 0;
-    padding: 0;
-    right: 0;
-    background: #ddd;
-    /* background: #e8d9c4; */
-}
-
-
-
 #menu {
     width: 240px;
     height: 100%;
@@ -283,19 +261,21 @@ body {
     outline: #c0b29e 2px solid;
 }
 
+/*
 section {
     top: 0;
-    /* width: 100%; */
+    width: 100%;
     margin-top: 0px;
-    /* margin-left: 230px; */
+    margin-left: 230px;
     padding: 30px 20px 30px 40px;
     background: -webkit-linear-gradient(left, #f3e3e1, #e7ded9);
     background: -o-linear-gradient(right, #f3e3e1, #e7ded9);
     background: -moz-linear-gradient(right, #f3e3e1, #e7ded9);
     background: linear-gradient(to right, #f3e3e1, #e7ded9);
-    /* background: #e8d9c4; */
+    background: #e8d9c4;
     height: 100%;
 }
+*/
 
 #typeface_title {
     font-size: 25px;

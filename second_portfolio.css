@@ -1,22 +1,22 @@
-body{
+body {
 	font-family: Lucida Grande;
-	margin: 0;
+	/* margin: 0; */
 	padding: 0;
 	right: 0;
 	background: #ddd;
 /*	background: #e8d9c4;*/
 }
 
-h2, h3, h4, h5, h5>a{
+h2, h3, h4, h5, h5>a {
 	text-align: center;
 	text-decoration: none;
 }
 
-h5>a{
+h5>a {
 	margin-left: 5px;
 }
 
-section{
+section {
 	top: 0;
 /*	width: 100%;*/
 	margin-top: 0px;
@@ -32,12 +32,12 @@ section{
 	height: 100%;
 }
 
-#content{
+#content {
 	margin-left: 235px;
 	margin-right: 25px;
 }
 
-#menu{
+#menu {
 	width: 240px;
 	height: 100%;
 	position: fixed;
@@ -58,38 +58,38 @@ section{
 	outline: #c0b29e 2px solid;
 }
 
-.linky{
+.linky {
 	transition: color 1.2s ease;
 	color: #aaa;
 	display: block;
 }
 
-.linky:hover{
+.linky:hover {
 	color: #663300;;
 }
 
-.space{
+.space {
 	display:block;
 	width: 100%;
 	height: 15px;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
-a>h4{
+a>h4 {
 	color: #574319;
 	text-decoration: none;
 }
 
-h4{
+h4 {
 	text-decoration: none;
 	padding: 10px;
 	margin: 0px;
 }
 
-a>h4:hover{
+a>h4:hover {
 	color: #3f2a14;
 	text-decoration: none;
 	background: #fff;
@@ -99,16 +99,16 @@ a>h4:hover{
 	margin: 0px;
 }
 
-.icon_link{
+.icon_link {
 	transition: opacity 1.2s ease;
 	opacity: 0.3;
 } 
 
-.icon_link:hover{
+.icon_link:hover {
 	opacity: 0.9;
 } 
 
-#soc_med{
+#soc_med {
 	text-align: center;
 	margin-left: 5px;
 	margin-bottom: 30px;
